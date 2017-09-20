@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.license      = "Commercial"
   s.authors      = { "wonje,song" => "wonje@soundl.ly" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/soundlly/BitsoundCore-iOS.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Soundlly/BitsoundCore-iOS.git", :tag => "#{s.version}" }  
   s.ios.vendored_frameworks = 'BitsoundCore.framework'
   s.frameworks = 'Foundation', 'AudioToolbox', 'AVFoundation', 'CoreTelephony', 'UIKit'
   s.libraries = "stdc++"
